@@ -21,18 +21,13 @@ def recursive_fibonachi(n):
 
 
 start_time = time()
-print(iterative_fibonachi(35))
+print(iterative_fibonachi(50))
 end_time = time()
 execution_time = end_time - start_time
 info(f'Время работы итеративной функции: {execution_time:.6f} секунд')
 
 start_time = time()
-print(recursive_fibonachi(40))
+print(recursive_fibonachi(50))
 end_time = time()
 execution_time = end_time - start_time
 info(f"Время работы рекурсивной функции: {execution_time:.6f} секунд")
-
-
-
-
-
